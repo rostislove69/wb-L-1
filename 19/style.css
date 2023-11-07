@@ -1,0 +1,51 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#vk-wall-widget {
+  max-width: 400px;
+  max-height: 400px;
+  overflow: scroll;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+}
+
+.post:not(:first-of-type){
+  margin-top: 30px;
+}
+
+.group-name{
+  font-weight: 700;
+}
+
+.post-photo{
+  width: 100%;
+}
+
+.post-video{
+  width: 100%;
+}
+
+.video-container{
+  position: relative;
+}
+
+.video-title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.post-text{
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.post-date{
+  font-size: 12px;
+  color: grey;
+}

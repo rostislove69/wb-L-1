@@ -1,0 +1,21 @@
+#suggestions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  position: absolute;
+  display: none;
+  width: 100%;
+  z-index: 999;
+}
+
+#suggestions li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+#suggestions li:hover {
+  background-color: #f2f2f2;
+}
